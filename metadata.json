@@ -1,0 +1,6 @@
+{
+  "name": "Sri Ruchi's Food Court",
+  "description": "Modern, mobile-friendly promotional website for Sri Ruchi's Food Court, showcasing a selection of high-quality Indian and Indo-Chinese dishes, dynamic food ordering enquiries, opening hours, and location reviews.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
