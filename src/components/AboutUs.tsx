@@ -21,7 +21,7 @@ export default function AboutUs() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
-          
+
           {/* Left Column: Artistic Visual Showcase (using existing noodle images cleanly) */}
           <div className="lg:col-span-5 order-2 lg:order-1">
             <div className="relative">
@@ -79,7 +79,7 @@ export default function AboutUs() {
               <p className="text-slate-650 text-base sm:text-lg mb-6 leading-relaxed">
                 Welcome to <strong>Sri Ruchi's Food Court</strong>, where taste meets quality. We serve freshly prepared dishes made with high-quality ingredients and authentic flavors. Our mission is to provide delicious food and a memorable dining experience for every customer.
               </p>
-              
+
               <p className="text-slate-600 text-sm sm:text-base mb-8 leading-relaxed">
                 Whether you crave the fiery sizzle of our legendary Gobi Manchurian, the rich smoky savor of wok-cooked noodles, or aromatic golden fried rice, our culinary masters prepare each order fresh to demand. We bridge the rich traditions of Indo-Chinese gourmet street food with a welcoming, hygienic, and modern physical food court atmosphere.
               </p>

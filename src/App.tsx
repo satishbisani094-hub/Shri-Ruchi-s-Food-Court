@@ -47,7 +47,7 @@ export default function App() {
 
   useEffect(() => {
     const sections = ['home', 'about', 'menu', 'features', 'gallery', 'reviews', 'contact'];
-    
+
     // Fallback simple window scroll listener if IntersectionObserver is restricted or resized inside iframe
     const handleScroll = () => {
       const scrollPosition = window.scrollY + 200;
