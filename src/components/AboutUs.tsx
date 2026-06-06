@@ -7,7 +7,7 @@ export default function AboutUs() {
     { label: 'Signature Dishes', value: '5+', desc: 'Perfected gourmet options', icon: UtensilsCrossed },
     { label: 'Quality Standards', value: '100%', desc: 'Hygienic prep guarantee', icon: ShieldCheck },
     { label: 'Customer Love', value: '4.9★', desc: 'Over hundreds of reviews', icon: Heart },
-    { label: 'Chef Expertise', value: '15+ Yrs', desc: 'Sizzling wok mastery', icon: Award },
+    { label: 'Chef Expertise', value: '10+ Yrs', desc: 'Sizzling wok mastery', icon: Award },
   ];
 
   return (
