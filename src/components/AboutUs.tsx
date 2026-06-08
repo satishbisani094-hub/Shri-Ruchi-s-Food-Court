@@ -1,7 +1,7 @@
 import { motion } from 'motion/react';
 import { Award, Heart, ShieldCheck, UtensilsCrossed } from 'lucide-react';
 import { MENU_ITEMS } from '../data/menu';
-
+import chickenManchurianImg from '../assets/images/chicken_manchurian_1780663660184.png';
 export default function AboutUs() {
   const stats = [
     { label: 'Signature Dishes', value: '5+', desc: 'Perfected gourmet options', icon: UtensilsCrossed },
@@ -28,7 +28,7 @@ export default function AboutUs() {
               {/* Main Image Shield */}
               <div className="aspect-[4/5] rounded-3xl overflow-hidden shadow-2xl relative border-4 border-white">
                 <img
-                  src={MENU_ITEMS[0].image} // Veg Manchurian
+                  src={chickenManchurianImg} // Chicken Manchurian
                   alt="Sri Ruchi's Crispy Manchurian Preparation"
                   className="w-full h-full object-cover filter brightness-95 transform hover:scale-105 transition-transform duration-700"
                   referrerPolicy="no-referrer"

@@ -392,8 +392,8 @@ export const CONTACT_INFO = {
   phone: '+91 6304374054',
   phoneSearch: '916304374054', // For click-to-call / whatsapp api
   email: 'info@sriruchi.com',
-  address: "Aurora's Scientific & Technological Institute, Ghatkesar, Aushapur",
-  gmapsEmbedUrl: "https://www.google.com/maps/place/Aurora's+Scientific+%26+Technological+Institute,+Ghatkesar,+Aushapur/@17.460403,78.7215963,17z/data=!3m1!4b1!4m6!3m5!1s0x3bcb7695f76a2e87:0x590044683d33643a!8m2!3d17.4603979!4d78.7241712!16s%2Fg%2F1ths7t8n?entry=ttu&g_ep=EgoyMDI2MDYwMS4wIKXMDSoASAFQAw%3D%3D",
+  address: "17°27'40.8\"N 78°43'30.4\"E",
+  gmapsEmbedUrl: "https://www.google.com/maps/search/?api=1&query=17.461333,78.725111",
   openingHours: [
     { days: 'Everyday Open', hours: '11:00 AM - 11:30 PM' },
     { days: 'Weekend Specials available', hours: 'All day long!' }

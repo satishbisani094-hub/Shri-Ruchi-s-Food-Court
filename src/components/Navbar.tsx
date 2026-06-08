@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Menu, X, Utensils, Phone } from 'lucide-react';
+import WegManjuryaImg from '../assets/images/weg_manjurya.png';
 import { CONTACT_INFO } from '../data/menu';
 
 interface NavbarProps {
@@ -62,7 +63,11 @@ export default function Navbar({ onOpenEnquiry, activeSection }: NavbarProps) {
             className="flex items-center gap-2 group"
           >
             <div className={`p-2 rounded-xl transition-colors duration-300 ${isScrolled ? 'bg-orange-500 text-white' : 'bg-white/15 text-orange-400 group-hover:bg-orange-500 group-hover:text-white'}`}>
-              <Utensils className="h-6 w-6" />
+              <img
+                src={WegManjuryaImg}
+                alt="Weg Manjurya"
+                className="h-6 w-6 object-cover rounded-full"
+              />
             </div>
             <div>
               <span className="font-sans font-extrabold text-xl sm:text-2xl tracking-tight block">
