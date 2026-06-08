@@ -119,7 +119,7 @@ export const MENU_ITEMS: MenuItem[] = [
     isVeg: true,
     isPopular: false,
     spiciness: 3,
-    image: vegManchurianImg,
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZrYaHQqbfwHaW4yrjSPb6AXXP4ys73v8qsA&s',
     rating: 4.4,
     reviewsCount: 0,
     preparationTime: '10-12 mins'
