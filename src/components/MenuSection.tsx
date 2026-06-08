@@ -200,7 +200,7 @@ export default function MenuSection({ onAddItemToTray, trayQuantities, onOpenEnq
                         className="flex-grow flex items-center justify-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-extrabold text-sm py-3.5 px-4 rounded-xl shadow-lg shadow-orange-500/10 transition-colors"
                       >
                         <Plus className="h-4.5 w-4.5" />
-                        <span>Add to Enquiry Tray</span>
+                        <span>Add to Cart</span>
                         {qtyInTray > 0 && (
                           <span className="bg-white text-orange-600 text-xs font-black h-5 px-1.5 rounded-full flex items-center justify-center ml-1 scale-102">
                             {qtyInTray}
@@ -259,7 +259,7 @@ export default function MenuSection({ onAddItemToTray, trayQuantities, onOpenEnq
               onClick={onOpenEnquiry}
               className="bg-orange-500 hover:bg-orange-600 text-white font-black text-xs uppercase tracking-wider py-2.5 px-4 rounded-xl transition-all shadow-md shadow-orange-500/20"
             >
-              Enquire Now
+              Cart
             </button>
           </motion.div>
         )}

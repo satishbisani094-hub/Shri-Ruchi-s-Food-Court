@@ -129,7 +129,7 @@ _This enquiry was submitted dynamically from the promotional website. Please con
                 </div>
                 <div>
                   <h3 className="font-sans font-extrabold text-slate-900 text-lg sm:text-xl tracking-tight">
-                    Your Enquiry Tray
+                    Your Cart
                   </h3>
                   <p className="text-[11px] font-semibold text-orange-600 uppercase tracking-widest leading-none mt-0.5">
                     {calculateTotalItemsCount()} items selected
@@ -187,7 +187,7 @@ _This enquiry was submitted dynamically from the promotional website. Please con
                   <ShoppingBag className="h-12 w-12 text-slate-300 mx-auto mb-3" />
                   <span className="font-bold text-slate-800 block text-lg mb-1">Your Tray is Empty</span>
                   <p className="text-slate-500 text-sm max-w-xs mx-auto">
-                    Go ahead and scan the menu list, tap "Add to Enquiry Tray" to select food items before placing an enquiry!
+                    Go ahead and scan the menu list, tap "Add to Cart" to select food items before placing an enquiry!
                   </p>
                   <button
                     id="enquiry-empty-close-btn"
